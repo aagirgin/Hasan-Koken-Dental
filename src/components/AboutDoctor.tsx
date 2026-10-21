@@ -11,7 +11,7 @@ export const AboutDoctor: React.FC = () => {
               <img
                 alt="Dt. Hasan Köken"
                 className="w-full h-full object-cover object-[15%_50%]"
-                src="/assets/clinic-placeholder.svg"
+                src={`${import.meta.env.BASE_URL}assets/clinic-placeholder.svg`}
                 referrerPolicy="no-referrer"
               />
             </div>

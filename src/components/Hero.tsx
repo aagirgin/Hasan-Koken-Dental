@@ -20,7 +20,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
                   SAĞLIKLI GÜLÜŞLER, DAHA İYİ BİR YARIN
                 </span>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-[1.15] text-white">
-                  Size Özel, Modern <br />
+                  Size ALİALİALİ Özel, Modern <br />
                   <span className="text-brand-burgundy">Diş Hekimliği</span>
                 </h1>
               </div>
@@ -56,7 +56,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
               <img
                 alt="HK Hasan Köken Diş Kliniği Danışma ve Giriş Alanı"
                 className="w-full h-full object-cover object-[70%_15%]"
-                src="/assets/clinic-placeholder.svg"
+                src={`${import.meta.env.BASE_URL}assets/clinic-placeholder.svg`}
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/40 to-transparent lg:block hidden"></div>
