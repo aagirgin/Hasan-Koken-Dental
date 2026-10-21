@@ -71,7 +71,7 @@ export const TreatmentsSection: React.FC<TreatmentsSectionProps> = ({
               <img
                 alt="Modern Diş Tedavi Odası"
                 className="w-full h-full object-cover object-[88%_68%] absolute inset-0 group-hover:scale-105 transition-transform duration-500"
-                src="/assets/aistudio/Image_1_4400bc60.png"
+                src="/assets/clinic-placeholder.svg"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-transparent to-transparent flex flex-col justify-end p-5 text-white">
