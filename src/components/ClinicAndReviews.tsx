@@ -60,7 +60,7 @@ export const ClinicAndReviews: React.FC<ClinicAndReviewsProps> = ({ onOpenGaller
                 <img
                   alt={item.title}
                   className={`w-full h-full object-cover ${item.cropPosition} group-hover:scale-105 transition-transform duration-500`}
-                  src="/assets/aistudio/Image_1_4400bc60.png"
+                  src="/assets/clinic-placeholder.svg"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">

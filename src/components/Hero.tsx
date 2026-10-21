@@ -56,7 +56,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenAppointment }) => {
               <img
                 alt="HK Hasan Köken Diş Kliniği Danışma ve Giriş Alanı"
                 className="w-full h-full object-cover object-[70%_15%]"
-                src="/assets/aistudio/Image_1_4400bc60.png"
+                src="/assets/clinic-placeholder.svg"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/40 to-transparent lg:block hidden"></div>

@@ -52,7 +52,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({
         {/* Main image view with fallback */}
         <div className="relative h-[340px] sm:h-[460px] bg-black flex items-center justify-center overflow-hidden">
           <img
-            src="/assets/aistudio/Image_1_4400bc60.png"
+            src="/assets/clinic-placeholder.svg"
             alt={currentItem.title}
             className={`w-full h-full object-cover ${currentItem.cropPosition} transition-all duration-300`}
             referrerPolicy="no-referrer"
@@ -95,7 +95,7 @@ export const GalleryModal: React.FC<GalleryModalProps> = ({
                 }`}
               >
                 <img
-                  src="/assets/aistudio/Image_1_4400bc60.png"
+                  src="/assets/clinic-placeholder.svg"
                   alt={item.title}
                   className={`w-full h-full object-cover ${item.cropPosition}`}
                 />
